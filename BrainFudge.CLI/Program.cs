@@ -11,7 +11,7 @@ namespace BrainFudge.CLI
         {
             if(args.Length == 0)
             {
-                Console.WriteLine("No arugments provided. Exiting...");
+                Console.WriteLine("No arguments provided. Exiting...");
                 Environment.Exit(0);
             }
             var input = File.ReadAllBytes(Path.Combine(Environment.CurrentDirectory, args[0]));         
