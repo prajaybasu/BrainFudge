@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RestoreSources>https://dotnet.myget.org/F/dotnet-core/api/v3/index.json </RestoreSources>
+  </PropertyGroup>
+   
+   
+   
+    <ItemGroup>
+    <PackageReference Include="ILLink.Tasks" Version="0.1.5-preview-1841731" />
+    </ItemGroup>
+  
+</Project>
