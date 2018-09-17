@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainFudge", "BrainFudge\BrainFudge.csproj", "{5298B1B9-DFEF-4580-8119-3B3296DA0099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainFudge.CLI", "BrainFudge.CLI\BrainFudge.CLI.csproj", "{304CD878-905C-4186-BDB9-3C5F9A2DCB63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainFudge.CLI", "BrainFudge.CLI\BrainFudge.CLI.csproj", "{304CD878-905C-4186-BDB9-3C5F9A2DCB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainFudge.Tests", "BrainFudge.Tests\BrainFudge.Tests.csproj", "{01A4B266-A245-465C-A818-D47076CE1BFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{304CD878-905C-4186-BDB9-3C5F9A2DCB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{304CD878-905C-4186-BDB9-3C5F9A2DCB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{304CD878-905C-4186-BDB9-3C5F9A2DCB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A4B266-A245-465C-A818-D47076CE1BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A4B266-A245-465C-A818-D47076CE1BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A4B266-A245-465C-A818-D47076CE1BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A4B266-A245-465C-A818-D47076CE1BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

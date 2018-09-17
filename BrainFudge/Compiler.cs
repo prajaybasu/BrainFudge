@@ -4,8 +4,7 @@ using System.Text;
 
 namespace BrainFudge
 {
-    public class BFCompiler
+    class Compiler
     {
-
     }
 }
